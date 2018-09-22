@@ -1,0 +1,98 @@
+# --- Homepage
+RewriteRule ^home$ index.php [NC]
+RewriteRule ^home/$ index.php [NC,L]
+
+# --- Posts sort pages
+RewriteRule ^posts$ posts.php [NC]
+RewriteRule ^posts/$ posts.php [NC]
+
+RewriteRule ^posts/([0-9]+)$ posts.php?page=$1 [NC]
+RewriteRule ^posts/([0-9]+)/$ posts.php?page=$1 [NC]
+
+
+RewriteRule ^posts/([0-9]+)/([^//]+)$ read_post.php?post_id=$1&title=$2 [NC]
+RewriteRule ^posts/([0-9]+)/([^//]+)/$ read_post.php?post_id=$1&title=$2 [NC]
+
+
+# ----- Events sorting
+RewriteRule ^events$ events.php [NC]
+RewriteRule ^events/$ events.php [NC]
+
+RewriteRule ^events/([0-9]+)$ events.php?page=$1 [NC]
+RewriteRule ^events/([0-9]+)/$ events.php?page=$1 [NC]
+
+RewriteRule ^events/([0-9]+)/([^//]+)$ read_event.php?event_id=$1&title=$2 [NC]
+RewriteRule ^events/([0-9]+)/([^//]+)/$ read_event.php?event_id=$1&title=$2 [NC]
+
+
+# ----- Captutre
+RewriteRule ^capture$  capture.php [NC]
+RewriteRule ^capture/$  capture.php [NC]
+
+RewriteRule ^capture/([0-9]+)$ capture.php?page=$1 [NC]
+RewriteRule ^capture/([0-9]+)/$ capture.php?page=$1 [NC]
+
+
+# --- Tagged Posts and Events
+RewriteRule ^tags/([a-zA-Z]+)/([^//]+)$ tags.php?category=$1&tag=$2 [NC]
+RewriteRule ^tags/([a-zA-Z]+)/([^//]+)/$ tags.php?category=$1&tag=$2 [NC]
+
+RewriteRule ^tags/([a-zA-Z]+)/([^//]+)/([0-9]+)$ tags.php?category=$1&tag=$2&page=$3 [NC]
+RewriteRule ^tags/([a-zA-Z]+)/([^//]+)/([0-9]+)/$ tags.php?category=$1&tag=$2&page=$3 [NC]
+
+
+# ---- About
+RewriteRule ^about$  about.php [NC]
+RewriteRule ^about/$  about.php [NC]
+RewriteRule ^about/([^//]+)$  about.php$1 [NC]
+
+# --- Contact us
+RewriteRule ^contact$ contact.php [NC]
+RewriteRule ^contact/$ contact.php [NC]
+
+RewriteRule ^contact/([^//]+)$ contact.php$1 [NC]
+RewriteRule ^contact/([^//]+)/$ contact.php$1 [NC]
+
+# --- Search
+RewriteRule ^search/([^//]+)$ search.php?keyword=$1 [NC]
+RewriteRule ^search/([^//]+)/$ search.php?keyword=$1 [NC]
+
+RewriteRule ^search$ search.php [NC]
+RewriteRule ^search/$ search.php [NC]
+
+
+# --- Account
+RewriteRule ^account$ account.php [NC]
+RewriteRule ^account/$ account.php [NC]
+
+
+# --- Logout
+RewriteRule ^logout$ logout.php [NC]
+RewriteRule ^logout/$ logout.php [NC]
+
+
+# --- Account
+RewriteRule ^passwordrecovery$ password_recovery.php [NC]
+RewriteRule ^passwordrecovery/$ password_recovery.php [NC]
+
+
+# --- Login
+RewriteRule ^signin$ signin.php [NC]
+RewriteRule ^signin/$ signin.php [NC]
+
+# --- Register
+RewriteRule ^signup$ signup.php [NC]
+RewriteRule ^signup/$ signup.php [NC]
+
+# --- Activation
+RewriteRule ^activation/([0-9]+)/([a-zA-Z0-9]+)$ activation.php?user_id=$1&key=$2 [NC]
+RewriteRule ^activation/([0-9]+)/([a-zA-Z0-9]+)/$ activation.php?user_id=$1&key=$2 [NC]
+
+
+# --- Page Not Found
+RewriteRule ^notfound$ not_found.php [NC]
+RewriteRule ^notfound/$ not_found.php [NC]
+
+# --- Page Offline Redirect
+RewriteRule ^offline$ offline.php [NC]
+RewriteRule ^offline/$ offline.php [NC]

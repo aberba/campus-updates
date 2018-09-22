@@ -1,0 +1,32 @@
+@import url("form.css");
+
+.form {
+
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.form input[type=text], .form textarea {
+	min-width: 565px;
+}
+
+.form textarea {
+	min-height: 200px;
+}
+
+.form input[type=file] {
+	direction: inline-block;
+	border: none;
+}
+
+
+/**************   CONTENT   ***************/
+.edit-section {
+	padding: 3px;
+	border: 1px solid #eeeeee;
+}
+
+.edit-section .form-section {
+	margin: 30px 0 10px 0;
+	border: 1px solid #eeeeee;
+}

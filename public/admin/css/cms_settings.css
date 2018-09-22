@@ -1,0 +1,38 @@
+@import url("form.css");
+
+.form {
+	padding: 10px;
+	margin: 0 20;
+	border: 1px solid #eeeeee;
+}
+
+.form p {
+	border-bottom: 1px dotted #eeeeee;
+}
+
+.add-setting-form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.form label {
+	text-transform: uppercase;
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+.form label a {
+	float: right;
+    margin: 10px 0 0 50px;
+    text-align: right;
+    font: 14px;
+}
+
+.form input[type=text] {
+	display: block;
+	width: 400px;
+}
+
+.form .button {
+     margin: 0 20px 0 0;
+}

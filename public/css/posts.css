@@ -1,0 +1,13 @@
+@import url("home.css");
+@import url("pagination.css");
+
+.loader-section {
+	height: 50px;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+    text-align: center;
+ }
+
+.loader-section figure {
+	display: none;
+}

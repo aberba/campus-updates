@@ -1,0 +1,244 @@
+@import url("capture.css");
+
+.posts-section {
+    margin: 0 0 50px 0;
+}
+
+.posts-section .post {
+    padding: 0 0 10px 0;
+    margin: 5px 0 30px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.posts-section .post figure {
+    float: left;
+    width: 300px;
+    margin: 0 10px 0 0;
+}
+
+.posts-section .post figure img {
+    width: 100%;
+}
+
+.posts-section .post .introduction {
+    float: left;
+    width: 260px;
+    min-height: 190px;
+}
+
+.posts-section .post .introduction h4 {
+    line-height: 20px;
+    padding: 0 0 3px 0;
+    margin: 0 0 3px 0;
+    font-size: 20px;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.posts-section .post .introduction .read-more {
+    display: block;
+    margin: 3px 0 0 0;
+}
+
+/*********** EVENTS Section ***********/
+.events-section {
+    margin: 30px 0;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.events-section h3 {
+    margin: 0 0 20px 0;
+}
+
+.events-section .event {
+    float: left;
+    width: 279px;
+    margin: 10px 5px;
+}
+
+.events-section .event figure img {
+    width: 100%;
+}
+
+.events-section .event figcaption {
+    font-size: 16px;
+}
+
+
+/********* CAPTURE SECTION    *********/
+/* named 'captures-section' insteed of 'captures-section' to prevent style collision with capture.css  */
+
+.captures-section {
+    padding: 10px 0;
+    margin: 40px 0;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.captures-section h3 {
+    margin: 0 0 20px 0;
+}
+
+.captures-section .capture figure {
+    float: left;
+    width: 189px;
+    margin: 0 3px 3px 0;
+}
+
+.captures-section .capture figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.captures-section .capture figure img:hover, .captures-section .capture figure img:focus {
+    opacity: 0.8;
+}
+
+
+/**********  COMMEMTS SECTION  ***************/
+.comments-section {
+    padding: 5px;
+    margin: 40px 0;
+}
+
+.comments-section .comment {
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px dotted #eeeeee;
+}
+
+.comments-section .comment figure {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 0; 
+}
+
+.comments-section .comment figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+}
+
+.comments-section .comment .comment-text {
+    padding: 3px;
+    margin: 0 0 0 60px;
+}
+
+.comments-section .comment .comment-information {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+
+/**********  MEDIA QUERIES  **********/
+@media (max-width: 800px) {
+    .posts-section .post figure {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .posts-section .post .introduction {
+        float: none;
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+    }
+    .events-section .event {
+        float: left;
+        width: 230px;
+    }
+    .captures-section .capture figure {
+        width: 235px;
+        margin: 3px 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .events-section .event {
+        float: left;
+        width: 220px;
+    }
+    .captures-section .capture figure {
+        width: 225px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .posts-section .post figure {
+        float: left;
+        width: 300px;
+        margin: 0 10px 0 0;
+        border: 1px solid #eeeeee;
+    }
+
+    .posts-section .post figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .posts-section .post .introduction {
+        float: left;
+        width: 280px;
+        min-height: 190px;
+    }
+     .events-section .event {
+        float: left;
+        width: 295px;
+    }
+    .captures-section .capture figure {
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+     .posts-section .post figure {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .posts-section .post .introduction {
+        float: none;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+    .events-section .event {
+        width: 215px;
+    }
+}
+
+@media (max-width: 480px) {
+     .events-section .event {
+        width: 215px;
+    }
+    .captures-section figure {
+        width: 227px;
+    }
+}
+
+@media (max-width: 360px) {
+    .events-section .event {
+        float: none;
+        width: 96%;
+    }
+    .captures-section .capture figure {
+        float: none;;
+        width: 97%;
+    }
+}
+
+@media (max-width: 320px) {
+    .comments-section .comment figure {
+        width: 50px;
+        height: 50px;
+    }
+    .comments-section .comment .comment-text {
+        padding: 3px;
+        margin: 0 0 0 60px;
+    }
+}

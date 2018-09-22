@@ -1,0 +1,24 @@
+.table {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.table th {
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+}
+
+.table th, .table td {
+    padding: 2px;
+    border: 1px solid #dcdcdc;
+}
+
+.table td {
+    font-weight: normal;
+    text-align: left;
+ } 

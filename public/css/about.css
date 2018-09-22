@@ -1,0 +1,22 @@
+
+.page-section {
+	padding: 0 10px;
+    margin: 0 0 40px 0;
+}
+
+.page-section:last-child {
+	margin-bottom: 0;
+}
+
+.page-section h3 {
+	text-transform: capitalize;
+	margin: 20px 0 0 0;
+}
+
+.page-section p {
+	margin: 5px 0 20px 0;
+}
+
+.page-section ul li {
+  margin: 0 0 0 20px;
+}

@@ -1,0 +1,71 @@
+ #content ul li {
+    list-style: none;
+}
+
+.welcome-section {
+    padding: 10px;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.10);
+}
+
+.quick-links-section {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #eeeeee;
+}
+
+.quick-links-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/****** NOTE: status-section of header should not conflict ********/
+#content .status-section {
+    margin: 20px 0;
+    border: 1px solid #eeeeee;
+}
+
+#content .status-section span {
+    text-decoration: underline;
+}
+
+#content .status-section .group {
+    float: left;
+    width: 185px;
+    height: 160px;
+    padding: 5px 10px;
+    margin: 0 10px 10px 0;
+    background: #eeeeee;
+    border: 1px solid #eeeeee;
+}
+
+#content .status-section .group h3 {
+    margin: 0 0 3px 0;
+    border-bottom: 1px dotted #dcdcdc;
+}
+
+.logs-section {
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border: 1px solid #eeeeee;
+}
+
+.logs-section ul {
+    margin: 0 10px;
+}
+
+.logs-section ul li {
+    margin: 5px 0;
+}
+
+.logs-section ul li:before {
+   content: "\2713";
+   width: 5px;
+   height: 5px;
+   margin: 0 5px;
+   vertical-align: middle;
+   color: #333333;
+   font-size: 12px;
+   box-shadow: 0 0 1px 1px rgba(0,0,0,0.10);
+   border-radius: 50%;
+}

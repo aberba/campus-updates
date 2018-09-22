@@ -1,0 +1,57 @@
+.upload {
+	padding: 5px 10px;
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.10);
+	
+}
+
+.upload .options {
+	margin: 0 0 3px 0;
+}
+
+.upload .content {
+	display: none;
+	padding: 5px;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+.upload .content a {
+	color: #77B0F1;
+}
+
+.upload .options ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.upload .upload-info {
+	padding: 3px;
+	margin: 5px 0 0 0;
+	border-top: 2px dotted #eeeeee; 
+}
+
+.upload .upload-info p {
+	margin: 5px 0;
+	font-size: 16px;
+}
+
+.upload .upload-info p .name {
+	text-transform: capitalize;
+}
+
+.upload .upload-info .avatar {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 20px 0 0;
+}
+
+.upload .upload-info .avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}

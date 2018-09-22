@@ -1,0 +1,68 @@
+@import url("table.css");
+@import url("form.css");
+
+.toggle-form-btn {
+	margin: 10px 0;
+	width: 300px;
+}
+
+.form {
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+.add-form {
+	display: none;
+}
+
+.form label {
+    display: block;
+}
+
+.form input[type=text], .form input[type=file], .form select, .form .button {
+	width: 400px;
+	display: block;
+}
+
+.form .button {
+	display: inline-block;
+	width: 265px;
+	margin: 5px 10px 5px 0;
+}
+
+.form .date-container select {
+	display: inline-block;
+	width: auto;
+}
+
+.advertisement {
+	padding: 5px;
+	margin: 20px 0;
+	border: 1px solid #eeeeee;
+}
+
+.advertisement ul {
+	padding: 5px;
+	font-size: 16px;
+	background: #eeeeee;
+}
+
+.advertisement ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 5px;
+	text-transform: capitalize;
+}
+
+.advertisement figure {
+	margin: 5px 0;
+}
+
+.advertisement figure img {
+	max-width: 100%;
+}
+
+.advertisement .form {
+	float: left;
+}

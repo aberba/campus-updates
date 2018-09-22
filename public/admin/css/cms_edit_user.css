@@ -1,0 +1,20 @@
+@import url("form.css");
+
+
+.edit-section h3 {
+	padding: 5px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.edit-section .form label {
+	display: block;
+}
+
+.form select, .form .button {
+	width: 400px;
+}
+
+.form .date-container select {
+	width: auto;
+}

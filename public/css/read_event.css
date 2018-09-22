@@ -1,0 +1,106 @@
+@import url("home.css");
+@import url("form.css");
+@import url("events.css");
+
+.event-section .event-title {
+     margin: 10px;
+     border-bottom: 1px dotted #eeeeee;
+     text-transform: capitalize;
+}
+
+.introduction-image {
+     padding: 5px;
+     margin: 5px 0;
+     border-bottom: 1px dotted #eeeeee;
+}
+
+.introduction-image .introduction-figure {
+    display: block;
+	margin: 5px 0;
+}
+
+.introduction-image .introduction-figure img {
+    width: 100%;
+}
+
+.event-section .event-content {
+    margin: 30px 10px;
+}
+
+.event-section .event-content p {
+    margin: 20px 0;
+}
+
+.event-section .event-content img.event-image {
+    width: 320px;
+    margin: 5px 10px 0 0;
+    float: left;
+}
+
+
+//**********   Introduction Section   ******************/
+.event-information {
+    padding: 5px;
+    border-top: 1px dotted #eeeeee;
+}
+
+.event-information ul {
+    margin: 50px 0;
+}
+
+.event-information ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.event-information ul li img {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+
+/********** Tags Section  *************/
+.tags-section {
+    padding: 10px;
+    margin: 60px 0;
+    border-top: 1px dotted #eeeeee;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.tags-section .tag-image {
+    margin: 0 5px 0 0;
+}
+
+.tags-section a {
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+
+/********** Event Section  *************/
+.event-section h3 {
+    margin: 0 0 20px 0;
+}
+
+
+
+
+/************ MEDIA QUERIES ***************/
+
+@media (max-width: 768px) {
+    .event-section .event-content img.event-image {
+        width: 100%;
+        margin: 5px 0;
+        float: none;
+    }
+}
+
+@media (max-width: 360px) {
+     .event-information ul li {
+        display: block;
+        margin: 10px;
+    }
+}

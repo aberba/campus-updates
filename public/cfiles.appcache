@@ -1,0 +1,52 @@
+CACHE MANIFEST
+
+# V1.0.0
+
+CACHE:
+
+#css files ----------------
+/css/about.css
+/css/account.css
+/css/capture.css
+/css/contact.css
+/css/event.css
+/css/form.css
+/css/global.css
+/css/home.css
+/css/login.css
+/css/normalize.css
+/css/not_found.css
+/css/pagination.css
+/css/password_recovery.css
+/css/posts.css
+/css/read_event.css
+/css/read_post.css
+/css/search.css
+/css/signup.css
+/css/table.css
+
+#js files  -------------------
+/js/about.js
+/js/account.js
+/js/capture.js
+/js/events.js
+/js/global.js
+/js/home.js
+/js/posts.js
+/js/read_event.js
+/js/read_post.js
+/js/search.js
+/js/tags.js
+
+# Templates images -----
+/img/templates/campus_updates_logo.png
+
+# CDN js ----------
+http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js
+http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js
+http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js
+http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+http://html5shim.googlecode.com/svn/trunk/html5.js
+
+NETWORK:
+*

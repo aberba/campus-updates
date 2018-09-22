@@ -1,0 +1,49 @@
+@import url("pagination.css");
+
+.event {
+	float: left;
+	width: 277px;
+	min-height: 210px;
+	margin: 0 5px 30px 5px;
+}
+
+.event figure img {
+	width: 100%;
+}
+
+.event figure figcaption {
+	font-size: 16px;
+}
+
+
+
+@media (max-width: 800px) {
+	.event {
+		width: 230px;
+	}
+}
+
+@media (max-width: 768px) {
+	.event {
+		width: 220px;
+	}
+}
+
+@media (max-width: 640px) {
+	.event {
+		width: 297px;
+	}
+}
+
+@media (max-width: 640px) {
+	.event {
+		width: 218px;
+	}
+}
+
+@media (max-width: 640px) {
+	.event {
+		width: 97%;
+	}
+	
+}

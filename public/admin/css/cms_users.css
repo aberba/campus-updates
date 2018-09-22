@@ -1,0 +1,11 @@
+@import url("table.css");
+
+.table {
+	font-size: 18px;
+}
+
+.table tr td, .table tr th {
+	text-align: left;
+	padding: 5px;
+}
+

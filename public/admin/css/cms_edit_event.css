@@ -1,0 +1,107 @@
+@import url("form.css");
+@import url("table.css");
+
+.form {
+
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.form input[type=text], .form textarea {
+	min-width: 565px;
+}
+
+.form textarea {
+	min-height: 200px;
+}
+
+.form input[type=file] {
+	direction: inline-block;
+	border: none;
+}
+
+.table {
+	margin: 10px 0
+}
+
+.table tr td {
+	padding: 5px 10px;
+}
+
+.button.current {
+	color: #000000;text-decoration: none;
+	background: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+
+
+/**************   CONTENT   ***************/
+.edit-section {
+	padding: 3px;
+	border: 1px solid #eeeeee;
+}
+
+.edit-section .tabs-section {
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+.edit-section .tabs-section ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.edit-section .tabs-section ul li a {
+	padding: 10px 20px;
+	outline: none;
+}
+
+.edit-section .form-section {
+	margin: 30px 0 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+
+.form-section .images-form .current-images {
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+.form-section .images-form .current-images .image {
+	float: left;
+	margin: 5px;
+	width: 270px;
+	height: 150px;
+	border: 1px solid #eeeeee;
+}
+
+
+/********* Info Form Add tag *****************/
+.tag-list ul {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.tag-list ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2px 5px;
+	margin: 0 3px;
+	font-size: 14px;
+	background: #eeeeee;
+	border: 1px solid #eeeeee;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.10);
+}
+
+
+/******* Lightbox **********/
+.lightbox .container {
+	height: 430px;
+}
+
+.lightbox .container .preview-image {
+	width: 680px;
+	height: 400px;
+}

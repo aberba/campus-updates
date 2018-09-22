@@ -1,0 +1,144 @@
+@import url("form.css");
+
+
+.lightbox .form {
+	width: 500px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #eeeeee;
+}
+
+.lightbox .form label {
+	margin: 20px 5px 0 5px;
+}
+
+.lightbox .form input[type=text] {
+	width: 400px;
+}
+
+.lightbox .form .button {
+	margin: 5px 10px 5px 0;
+}
+
+.captures-section {
+
+}
+
+.captures-section .options {
+	padding: 5px;
+	margin: 0 0 10px 0;
+	background: #eeeeee;
+	border: 1px solid #eeeeee;
+}
+
+.captures-section .options .button, .captures-section .options select {
+    margin: 0 10px;
+}
+
+.captures-section .capture {
+	display: block;
+	float: left;
+	width: 185px;
+	height: 120px;
+	margin: 10px 5px 20px 5px;
+	border: 1px solid #eeeeee;
+}
+
+.captures-section .capture img {
+	width: 100%;
+	height: 100%;
+}
+
+.captures-section .capture figcaption {
+	font-size: 16px;
+	text-align: center;
+	margin: 3px;
+}
+
+
+
+/********** Capture Upload Form Lightbox ****************/
+
+
+
+/********** Capture View Lightbox  ****************/
+
+.lightbox .container {
+	top: 20%;
+}
+
+.lightbox .container .form input[type=text], .lightbox .container .form label {
+	display: block;
+}
+
+.lightbox .preview-container {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	width: 600px;
+	padding: 10px;
+	margin: 0 0 0 -300px;
+	color: #ffffff;
+	background: #000000;
+	background: transparent;
+}
+
+.lightbox .preview-container .sub-container {
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.lightbox .preview-container .close {
+	float: right;
+	margin: -10px -4px 0 0;
+	cursor: pointer;
+}
+
+.lightbox .preview-container .arrow {
+	position: absolute;
+	top: 45%;
+	cursor: pointer;
+}
+
+.lightbox .preview-container .next {
+	right: 10px;
+}
+
+.lightbox .preview-container .previous {
+	left: 10px;
+}
+
+
+.lightbox .preview-container .slide-wrap {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.lightbox .preview-container .slide-wrap img.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.lightbox .preview-container .slide-wrap img.previous {
+	z-index: 1;
+}
+
+.lightbox .preview-container .slide-wrap img.current {
+	z-index: 2;
+}
+
+.lightbox .preview-container .slide-wrap img.topmost {
+	z-index: 3;
+}
+
+.lightbox .preview-container .caption {
+	padding: 2px;
+    margin: 2px 0;
+    text-align: center;
+}

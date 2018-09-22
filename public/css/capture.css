@@ -1,0 +1,249 @@
+@import url("pagination.css");
+
+
+.capture-section {
+  
+}
+
+.capture-section .capture {
+    float: left;
+    width: 190px;
+    min-height: 180px;
+    margin: 0 3px 10px 0;
+}
+
+.capture-section .capture figcaption {
+	font-size: 15px;
+}
+
+.capture-section .capture figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.capture-section .capture figure img:hover, .capture-section .capture figure img:focus {
+    opacity: 0.8;
+}
+
+
+/********** LIGHTBOX  ****************/
+.capture-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	background: rgba(0,0,0,0.8);
+	z-index: 20000;
+}
+
+.capture-lightbox .container {
+	position: fixed;
+	top: 5%;
+	left: 50%;
+	width: 950px;
+	margin: 0 0 0 -475px;
+	color: #ffffff;
+}
+
+.capture-lightbox .container .sub-container {
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
+}
+
+.capture-lightbox .container .close {
+	float: right;
+	margin: -8px -5px 0 0;
+	cursor: pointer;
+}
+
+.capture-lightbox .container .arrow {
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+}
+
+.capture-lightbox .container .next {
+	right: 10px;
+}
+
+.capture-lightbox .container .previous {
+	left: 10px;
+}
+
+
+.capture-lightbox .container .slide-wrap {
+	position: relative;
+	width: 100%;
+	height: 460px;
+}
+
+.capture-lightbox .container .slide-wrap img.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.capture-lightbox .container .slide-wrap img.previous {
+	z-index: 1;
+}
+
+.capture-lightbox .container .slide-wrap img.current {
+	z-index: 2;
+}
+
+.capture-lightbox .container .slide-wrap img.topmost {
+	z-index: 3;
+}
+
+.capture-lightbox .container .caption {
+	padding: 2px;
+    margin: 2px 0;
+    text-align: center;
+}
+
+
+/******** MEDIA QUERIES ******/
+
+@media (max-width: 800px) {
+	.capture-section .capture {
+	    width: 238px;
+	    margin: 0 3px 10px 0;
+	    border: 1px solid #eeeeee;;
+	}
+	.capture-lightbox .container {
+		width: 790px;
+		margin: 0 0 0 -395px;
+	}
+
+	.capture-lightbox .container .sub-container {
+		width: 690px;
+	}
+
+	.capture-lightbox .container .slide-wrap {
+		height: 373px;
+	}
+}
+
+@media (max-width: 768px) {
+	.capture-section .capture {
+        width: 225px;
+	}
+
+	.capture-lightbox .container {
+		top: 5%;
+		width: 750px;
+		margin: 0 0 0 -375px;
+	}
+
+	.capture-lightbox .container .sub-container {
+		width: 660px;
+	}
+
+	.capture-lightbox .container .slide-wrap {
+		height: 357px;
+	}
+}
+
+@media (max-width: 640px) {
+	.capture-section .capture {
+        width: 300px;
+	}
+	.capture-section .capture img {
+        height: 210px;
+	}
+
+	.capture-lightbox .container {
+		top: 5%;
+		width: 630px;
+		margin: 0 0 0 -315px;
+	}
+    .capture-lightbox .container .arrow {
+		top: 30%;
+	}
+	.capture-lightbox .container .sub-container {
+		width: 550px;
+	}
+
+	.capture-lightbox .container .slide-wrap {
+		height: 297px;
+	}
+	.capture-lightbox .container .caption {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 480px) {
+	.capture-section .capture {
+        width: 220px;
+	}
+	.capture-section .capture img {
+        height: 150px;
+	}
+	.capture-section .capture figcaption {
+		font-size: 14px;
+	}
+
+	.capture-lightbox .container {
+		top: 8%;
+		width: 476px;
+		margin: 0 0 0 -248px;
+	}
+	.capture-lightbox .container .arrow {
+		top: 30%;
+	}
+	.capture-lightbox .container .sub-container {
+		width: 390px;
+	}
+	.capture-lightbox .container .slide-wrap {
+		height: 230px;
+	}
+	.capture-lightbox .container .caption {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 360px) {
+	.capture-section .capture {
+        width: 97%;
+	}
+	
+	.capture-lightbox .container {
+		width: 360px;
+		margin: 0 0 0 -180px;
+	}
+	.capture-lightbox .container .arrow {
+		top: 20%;
+	}
+	.capture-lightbox .container .sub-container {
+		width: 280px;
+	}
+	.capture-lightbox .container .slide-wrap {
+		height: 180px;
+	}
+	.capture-lightbox .container .caption {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 320px) {
+
+	.capture-lightbox .container {
+		width: 320px;
+		margin: 0 0 0 -160px;
+	}
+	.capture-lightbox .container .sub-container {
+		width: 240px;
+	}
+	.capture-lightbox .container .slide-wrap {
+		height: 160px;
+	}
+	.capture-lightbox .container .caption {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,39 @@
+.table {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.table th {
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+}
+
+.table th, .table td {
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.table tr td {
+    padding: 5px 10px;
+}
+
+.table tr td[contenteditable=true]:focus, .table tr td[contenteditable=true]:hover {
+    border: 1px solid #448CD3 !important;
+}
+
+.table td {
+    font-weight: normal;
+    text-align: left;
+ }
+
+ .table td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ }
+ 

@@ -1,0 +1,33 @@
+@import url("form.css");
+
+.form fieldset {
+   margin: 10px 0 50px 0;
+}
+
+.form label {
+    display: block;
+}
+
+.form input[type=text], .form input[type=email], 
+.form input[type=password] {
+    width: 270px;
+    margin: 0 0 20px 3px;
+}
+
+.form button {
+     min-width: 280px;
+}
+
+@media (max-width: 480px) {
+   .form input[type=text], .form input[type=email], .form input[type=password], .form .button {
+	    width: 310px;
+	}
+}
+
+
+@media (max-width: 320px) {
+   .form input[type=text], .form input[type=email], .form input[type=password], .form .button {
+	    width: 270px;
+	}
+}
+

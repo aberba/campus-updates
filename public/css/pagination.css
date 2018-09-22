@@ -1,0 +1,29 @@
+.pagination-section {
+    padding: 5px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    border-top: 1px dotted #eeeeee;
+    clear: both;
+}
+
+.pagination-section a, .pagination-section span.current {
+    padding: 3px;
+    margin: 0 3px;
+}
+
+.pagination-section a:hover {
+    text-decoration: underline;
+}
+
+.pagination-section span.current {
+    color: #000000;
+    font-weight: bold;
+}
+
+.pagination-section a.previous {
+    float: left;
+}
+
+.pagination-section a.next {
+    float: right;
+}

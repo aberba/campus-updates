@@ -1,0 +1,14 @@
+Options +Followsymlinks
+RewriteEngine On
+
+# --- Redirect custom 404 file not found requests to the error page
+#ErrorDocument 404 /not_found.php
+
+# --- prevent directory listing
+#IndexIgnore *
+
+# -- direct all request to publc dir
+RewriteCond %{HTTP_HOST} ^test\.local$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.test\.local$
+RewriteCond %{REQUEST_URI} !^/public/
+#RewriteRule (.*) /public/$1

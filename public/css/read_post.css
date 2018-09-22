@@ -1,0 +1,249 @@
+@import url("home.css");
+@import url("form.css");
+
+.post-section .post-title {
+     margin: 10px;
+     border-bottom: 1px dotted #eeeeee;
+     text-transform: capitalize;
+}
+
+.introduction-section {
+     padding: 5px;
+     margin: 5px;
+     border-bottom: 1px solid #eeeeee;
+}
+
+.introduction-section .introduction-figure {
+	float: left;
+	width: 350px;
+	margin: 5px 0;
+}
+
+.introduction-section .introduction-figure img {
+	width: 100%;
+	height: 100%;
+}
+
+.introduction-section .post-information {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+.introduction-section .post-information ul {
+	margin: 0 0 10px 0;
+}
+
+.introduction-section .post-information ul.social-media-buttons {
+    margin: 30px 0 0 0;
+}
+
+.introduction-section .post-information ul.social-media-buttons li {
+	display: inline-block;
+}
+
+.introduction-section .post-information ul li {
+	list-style: none;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+
+.introduction-section .post-information ul li img {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.post-section .post-content {
+    margin: 30px 10px;
+}
+
+.post-section .post-content p {
+    margin: 20px 0;
+}
+
+.post-section .post-content img.post-image {
+    width: 320px;
+    margin: 5px 10px 0 0;
+    float: left;
+}
+
+
+/*********   Attachment Section   ****************/
+.attachments-section {
+    padding: 10px;
+    margin: 50px 0;
+}
+
+.attachments-section ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px 0 0;
+}
+
+
+/********** Tags Section  *************/
+.tags-section {
+    padding: 10px;
+    margin: 50px 0;
+    border-top: 1px dotted #eeeeee;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.tags-section .tag-image {
+    margin: 0 5px 0 0;
+}
+
+.tags-section a {
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+
+/*********** Related Posts Section ************/
+.related-posts-section {
+    padding: 5px;
+    margin: 50px 0;
+    border: 1px dotted #eeeeee;
+}
+
+.related-posts-section h3 {
+    margin: 0 0 20px 0;
+}
+
+.related-posts-section .post {
+    float: left;
+    width: 273px;
+    height: 225px;
+    margin: 0 10px 10px 0;
+}
+
+.related-posts-section .post img {
+    width: 100%;
+}
+
+.related-posts-section .post figcaption {
+    margin: 0 3px 3px 3px;
+    font-size: 16px;
+}
+
+
+
+
+
+/** Comment Form  ***/
+.comments-section {
+    margin: 40px 0 0 0;
+    border-top: 1px dotted #eeeeee;
+}
+
+.comment-form-section {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #eeeeee;
+}
+
+.comment-form-section .form label, .comment-form-section .form textarea {
+    display: block;
+}
+
+.form {
+    position: relative;
+}
+
+.form textarea {
+    width: 100%;
+    height: 24px;
+    min-height: 24px;
+    max-height: 200px;
+    background-size: contain;
+    overflow-y: hidden;
+    outline: auto;
+    border: 1px solid #77B0F1;
+    border-right-width: 20px;
+    transition: height 0.5s ease-in;
+}
+
+.form textarea:focus {
+    height: 80px;
+    border: 1px solid #77B0F1;
+    border: 1px 1px 1px 0;
+}
+
+.form .arrow:before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 27px;
+    width: 0;
+    height: 0;
+    border: 13px solid;
+    border-color: transparent #77B0F1 transparent transparent;
+}
+
+
+
+/************ MEDIA QUERIES ***************/
+@media (max-width: 800px) {
+    .introduction-section .introduction-figure {
+    	float: none;
+    	width: 100%;
+    }
+    .introduction-section .post-information {
+    	float: none;
+        margin: 10px 0 0 0;
+    }
+    .introduction-section .post-information ul {
+        margin: 10px 0;
+    }
+    .introduction-section .post-information ul li {
+    	display: inline-block;
+    	margin: 5px 10px 5px 0;
+    }
+    .related-posts-section .post {
+        width: 225px;
+        height: 205px;
+    }
+    .related-posts-section .post img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 640px) {
+    
+    .related-posts-section .post {
+        width: 280px;
+    }
+    .related-posts-section .post img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 360px) {
+    .introduction-section .post-information ul {
+        margin: 0;
+    }
+    .introduction-section .post-information ul li {
+        list-style: none;
+        text-transform: capitalize;
+        margin: 0 0 10px 0;
+    }
+
+    .introduction-section .post-information ul:first-child li {
+        display: block;
+        margin: 10px;
+    }
+    .related-posts-section .post {
+        float: none;
+        width: 98%;
+    }
+    .related-posts-section .post img {
+        height: 170px;
+    }
+}
+
+@media (max-width: 320px) {
+
+}

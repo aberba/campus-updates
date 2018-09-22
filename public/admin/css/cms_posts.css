@@ -1,0 +1,173 @@
+@import url("table.css");
+@import url("form.css");
+
+.posts-section {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.posts-section .post {
+	padding: 5px;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+	border: 1px solid #eeeeee;
+}
+
+.posts-section .post:last-child {
+	margin-bottom: 0;
+}
+
+.post .post-options {
+	display: none;
+    padding: 3px;
+    margin: 0 0 5px 0;
+    background: #eeeeee;
+    border: 1px solid #eeeeee;
+}
+
+.post:hover .post-options {
+	display: block;
+}
+
+.post .post-options ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.post .post-information {
+	float: left;
+	width: 358px;
+	margin: 0 5px 0 0;
+	border: 1px solid #eeeeee;
+}
+
+.post .post-information table tr td {
+    padding: 0 3px;
+}
+
+.post figure {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.post figure img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*****  Post Preview Lightbox *******/
+
+.lightbox .container {
+	width: 600px;
+	margin: 0 0 0 -300px;
+	height: 600px;
+	overflow-y: auto;
+}
+
+.lightbox .container .post-info-div {
+	padding: 5px;
+	margin: 20px 0;
+    border: 1px solid #eeeeee;
+}
+
+.lightbox .container .post-info-div img {
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+
+.lightbox .container .post-info-div ul {
+	float: left;
+	width: 240px;
+	padding: 10px;
+	margin: 0 0 0 10px;
+	border: 1px solid #eeeeee;
+}
+
+.lightbox .container .post-info-div ul li {
+	list-style: none;
+}
+
+.lightbox .container .content-div {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.lightbox .container .content-div p {
+	margin: 20px 0;
+}
+
+.lightbox .container .content-div .post-image {
+	display: block;
+	float: left;
+	width: 300px;
+	margin: 0 10px 0 0;
+}
+
+.lightbox .container .attachment-div {
+	padding: 5px;
+	margin: 20px 0;
+	color: #000;
+	border: 1px solid #eeeeee;
+}
+
+
+/****** Comments View Lightbox ****/
+
+.lightbox .container .comment {
+	padding: 5px;
+	margin: 20px 0;
+	border: 1px solid #eeeeee;
+}
+
+.lightbox .container .comment .avatar {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 0 0;
+}
+
+.lightbox .container .comment .avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.lightbox .container .comment .comment-text {
+	margin: 0 0 5px 50px;
+	word-wrap: break-word;
+}
+
+.lightbox .container .comment .comment-info {
+	font-size: 16px;
+	margin: 0 0 0 50px;
+}
+
+ /**** Edit comment form *****/
+
+ .lightbox .container .comment-form {
+ 	 position: absolute;
+ 	 top: 10%;
+ 	 left: 50%;
+ 	 width: 500px;
+ 	 padding: 10px;
+ 	 margin: 0 0 0 -250px;
+ 	 background: #ffffff;
+ 	 box-shadow: 0 0 2px 40px rgba(0,0,0,0.55);
+ 	 z-index: 3;
+ }
+
+  .lightbox .container .comment-form textarea {
+  	  width: 470px;
+  	  margin: 5px;
+  }
+
+  .lightbox .container .comment-form .button {
+  	  padding: 3px 5px;
+  	  margin: 5px 10px;
+  }
+
+
+

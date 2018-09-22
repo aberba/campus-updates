@@ -1,0 +1,53 @@
+
+.forum-info-section {
+	margin: 30px 10px;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.threads-section {
+	margin: 30px 0px;
+}
+
+.threads-section .thread {
+	margin: 20px 10px;
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.threads-section .thread figure {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin: 5px;
+}
+
+.threads-section .thread figure img {
+	width: 100%;
+	height: 100%;
+}
+
+.threads-section .thread h3 a {
+	font-size: 22px;
+}
+
+.threads-section .thread .info {
+	margin: 7px 0;
+}
+
+.threads-section .thread .tag {
+	display: inline-block;
+	padding: 2px 5px;
+	margin: 15px 5px 0 0;
+	color: #333333;
+	font-size: 14px;
+	background: #eeeeee;
+	box-shadow: 1px 1px rgba(0,0,0,0.10);
+	border-radius: 5px;
+}
+
+.threads-section .thread .tag:hover {
+	text-decoration: none;
+	color: red;
+}

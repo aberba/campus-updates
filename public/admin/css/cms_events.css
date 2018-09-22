@@ -1,0 +1,56 @@
+@import url("table.css");
+
+.events-section {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+
+.events-section .event {
+	padding: 5px;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+	border: 1px solid #eeeeee;
+}
+
+.events-section .event:last-child {
+	margin-bottom: 0;
+}
+
+.event .options {
+	display: none;
+    padding: 3px;
+    margin: 0 0 5px 0;
+    border: 1px solid #eeeeee;
+}
+
+.event:hover .options {
+	display: block;
+}
+
+.event .options ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.event .event-information {
+	float: left;
+	width: 358px;
+	margin: 0 5px 0 0;
+	border: 1px solid #eeeeee;
+}
+
+.event .event-information table tr td {
+    padding: 0 3px;
+}
+
+.event figure {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.event figure img {
+	width: 100%;
+	height: 100%;
+}

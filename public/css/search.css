@@ -1,0 +1,10 @@
+@import url("home.css");
+@import url("events.css");
+@import url("capture.css");
+
+.search-title {
+	display: block;
+	margin: 10px 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #eeeeee;
+}
